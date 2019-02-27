@@ -203,6 +203,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  autoprefixer-rails
   bootsnap (>= 1.1.0)
   bootstrap-sass (>= 3.3.6)
   byebug
@@ -215,7 +216,7 @@ DEPENDENCIES
   pg (>= 0.18, < 2.0)
   puma (~> 3.11)
   rails (~> 5.2.2)
-  sass-rails (~> 5.0)
+  sass-rails (>= 5.0.7)
   selenium-webdriver
   spring
   spring-watcher-listen (~> 2.0.0)
