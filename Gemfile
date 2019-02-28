@@ -16,9 +16,7 @@ gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
 # jQuery for bootstrap
-gem 'jquery-rails'
-# bootstrap gem
-gem 'bootstrap-sass', '>= 3.3.6'
+gem 'jquery-rails', '>= 4.3.1'
 # auto-prefixer
 gem 'autoprefixer-rails'
 # Use CoffeeScript for .coffee assets and views
@@ -65,3 +63,5 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+# bootstrap gem
+gem 'bootstrap-sass', '>= 3.3.6'
